@@ -163,27 +163,13 @@ border:#CECECE;
 
 
 @media only screen and (max-width: 600){
+  
   section{
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .work_div{
-    display: flex;
     flex-direction: column;
-    flex-grow: 1;
-    justify-content: space-around;
-    text-align: center;
-    width: 33%;
-    flex-wrap: nowrap;
-    margin: 10px;
-    height: 200px;
-    border-radius: 10px;
-    border-width: 1px;
-    border-color: lightgray;
-    border-style: solid;
+    
   }
-  
-  
+  .home{
+    font-size:7px;
+  }
 
 }

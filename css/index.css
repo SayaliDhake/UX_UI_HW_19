@@ -7,6 +7,7 @@ body{
     
 } 
 
+
 .navbar{
     top: 0;
     position: fixed;
@@ -75,7 +76,7 @@ body{
     flex-direction: column;
     align-items: center;
 }
-
+    
 .section{
     margin-left: 20%;
     margin-right: 20%;
@@ -101,7 +102,6 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 
 @keyframes ani{
     0%{
@@ -156,3 +156,24 @@ body{
     border: none;
     background-color: transparent;
 }
+
+@media only screen and (max-width:600px){
+    .section{
+        margin-left: auto;
+        flex-direction: column;
+        display: flex;
+        min-width: 100%;
+        justify-content:space-around;
+        align-items: center;
+    }
+         
+    body{
+        background-repeat: repeat ;
+    }
+
+    .home {
+        font-size: 8px;
+    }
+  }
+  
+  
