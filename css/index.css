@@ -1,6 +1,6 @@
 
 body{
-    background-image: url("../Images/backgrnd.jpg");
+    background-image: url("../images/backgrnd.jpg");
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -92,7 +92,7 @@ body{
 
 
 .img{
-    background-image: url("../Images/sayali.jpg");
+    background-image: url("../images/sayali.jpg");
     border-color: grey;
     opacity: 0.9;
     width: 200px;
