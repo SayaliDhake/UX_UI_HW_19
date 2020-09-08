@@ -15,6 +15,11 @@
     $(".workPage").click(function(){
         window.location.href = "mywork.html"
     })
+
+    $(".derive").click(function(){
+      window.location.href = "derive.html"
+  })
+
   });
 
 //arrow animation/
